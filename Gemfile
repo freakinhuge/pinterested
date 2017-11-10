@@ -5,7 +5,7 @@ gem 'sass-rails', '>= 3.2.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
-gem 'turbolinks'
+#gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
@@ -14,6 +14,8 @@ gem 'devise', '~> 4.3'
 gem 'paperclip', '~> 5.1'
 gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.4'
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 
 group :development, :test do
   gem 'sqlite3'
