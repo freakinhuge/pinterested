@@ -12,6 +12,8 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise', '~> 4.3'
 gem 'paperclip', '~> 5.1'
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.4'
 
 group :development, :test do
   gem 'sqlite3'
